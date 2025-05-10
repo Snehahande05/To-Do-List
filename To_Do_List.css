@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+}
+
+#input_box {
+    padding: 15px;
+    font-size: 18px;
+    width: 300px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#add_button {
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding: 10px;
+    font-size: 18px;
+    background: #eee;
+    margin-bottom: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-radius: 5px;
+    position: relative;
+}
+
+li::after {
+    content: '❌';
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    color: red;
+}
